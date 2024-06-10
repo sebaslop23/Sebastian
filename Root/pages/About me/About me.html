@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <title>About me</title>
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+    <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet" />
+    <link href="css/styles.css" rel="stylesheet" />
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        /* Custom hover styles */
+        .navbar-nav .nav-link:hover, .btn:hover {
+            color: #d1d1d1;
+        }
+        .btn-primary:hover {
+            background-color: #0056b3;
+            border-color: #004085;
+        }
+        /* Custom image styles */
+        .custom-img {
+            width: 100%;
+            height: auto;
+        }
+        /* Fade transition */
+        .fade-transition {
+            animation: fadeInOut 2s ease-in-out forwards;
+        }
+        @keyframes fadeInOut {
+            0% {
+                opacity: 0;
+            }
+            100% {
+                opacity: 1;
+            }
+        }
+
+        /* Background image and overlay */
+        body, html {
+            height: 100%; /* Make the body and html elements take up the full viewport height */
+            margin: 0; /* Remove default margin */
+            padding: 0; /* Remove default padding */
+        }
+        .navbar {
+            background-color: transparent !important; /* Set the navbar background color to transparent */
+        }
+        .navbar-nav .nav-link {
+            color: white !important; /* Set the navbar text color to white */
+        }
+        #philosophy {
+            position: relative;
+            background-image: url('C:/Users/owner/Downloads/HUW 166/Final/startbootstrap-grayscale-gh-pages/startbootstrap-grayscale-gh-pages/pages/About me/assets/img/About me Background.jpg');
+            background-size: cover; /* Cover the whole area */
+            background-position: center;
+            height: 100vh; /* Set the height to 100% of the viewport height */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding-top: 60px; /* Add padding to the top */
+        }
+        #philosophy:before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.1); /* Black color with 50% opacity */
+        }
+
+        /* Media query for smaller screens */
+        @media (max-width: 768px) {
+            #philosophy {
+                height: auto; /* Set the height to auto for smaller screens */
+            }
+            #philosophy:before {
+                content: "";
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                background-color: rgba(0, 0, 0, 0.5); /* Black color with 50% opacity */
+            }
+        }
+    </style>
+</head>
+<body id="page-top">
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+        <div class="container px-4 px-lg-5">
+            <a class="navbar-brand" href="file:///C:/Users/owner/Downloads/HUW%20166/Final/startbootstrap-grayscale-gh-pages/startbootstrap-grayscale-gh-pages/index.html">Sebastian</a>
+
+            <button class="navbar-toggler navbar-toggler-right" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                Menu
+                <i class="fas fa-bars"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="file:///C:/Users/owner/Downloads/HUW%20166/Final/startbootstrap-grayscale-gh-pages/startbootstrap-grayscale-gh-pages/pages/About%20me/About%20me.html">About</a></li>
+
+                    <li class="nav-item"><a class="nav-link" href="file:///C:/Users/owner/Downloads/HUW%20166/Final/startbootstrap-grayscale-gh-pages/startbootstrap-grayscale-gh-pages/pages/Philosophy/Philosophy.html">Philosophy</a></li>
+                    <li class="nav-item"><a class="nav-link" href="file:///C:/Users/owner/Downloads/HUW%20166/Final/startbootstrap-grayscale-gh-pages/startbootstrap-grayscale-gh-pages/pages/Projects/Projects.html">Projects</a></li>
+
+                    <li class="nav-item"><a class="nav-link" href="file:///C:/Users/owner/Downloads/HUW%20166/Final/startbootstrap-grayscale-gh-pages/startbootstrap-grayscale-gh-pages/pages/Contact/Contact.html">Contact</a></li>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <section class="about-section text-center fade-transition" id="philosophy">
+        <div class="overlay"></div>
+        <div class="px-4 px-lg-5 d-flex align-items-center justify-content-center" style="height: 100%;">
+            <div class="row gx-4 gx-lg-5 justify-content-center">
+                <div class="col-lg-8">
+                    <h2 class="text-white mb-4">Sebastian Rangel</h2>
+                   <p class="text-white-50">
+                    Sebastian Rangel, born and raised in the vibrant city of Cali, Colombia, embarked on a transformative journey to the United States to pursue his lifelong dream of becoming a media designer. Surrounded by Cali's rich cultural tapestry, he developed a deep appreciation for creativity and storytelling from an early age. In the U.S., Sebastian dedicated himself to mastering the intricate balance between coding and design, recognizing that true innovation lies at the intersection of these disciplines. His passion for media design extends beyond aesthetics; he believes in the power of design to forge meaningful connections between ideas and audiences. With a blend of technical expertise and artistic vision, Sebastian approaches each project with empathy and a deep understanding of his clients' core values. Inspired by the ever-evolving landscape of media and technology, he embraces innovation while staying grounded in timeless design principles. His ultimate goal is to create experiences that engage, inspire, and leave a lasting impact, transforming visions into reality with designs that resonate on an emotional level and forge lasting connections.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <footer class="footer bg-black small text-center">
+        <div class="container px-4 px-lg-5">
+            Copyright &copy; Sebastian Rangel 2024
+        </div>
+    </footer>
+    
+    <!-- Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/scripts.js"></script>
+</body>
+</html>
